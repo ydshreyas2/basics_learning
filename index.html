@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Records App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/aws-amplify@6.0.0/dist/aws-amplify.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>User Records</h1>
+    <form id="userForm">
+      <input type="text" id="nameInput" placeholder="Enter your name" required>
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Stored Records</h2>
+    <table id="recordsTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Date & Time</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</body>
+</html>
