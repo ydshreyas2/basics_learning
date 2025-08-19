@@ -1,5 +1,5 @@
 // Replace with your deployed API Gateway / Amplify API endpoint
-const API_URL = " https://your-api-endpoint.amazonaws.com/records";
+const API_URL = "https://elk72ih29f.execute-api.ap-south-1.amazonaws.com/records";
 
 document.getElementById("userForm").addEventListener("submit", async (e) => {
     e.preventDefault();
